@@ -51,7 +51,7 @@ To run the `VCtoB` executable, use the following syntax:
 - `-k` specifies the k-value for the vertex connectivity.
 
 ## Example
-Here is an example command to compute the exact maximum 6-bundle for the 'tech-as-caida2007.bin' graph with k=16:
+Here is an example command to compute the exact minimum 16-VC for the 'tech-as-caida2007.bin' graph with k=16:
 
 ```sh
 ./VCtoB -g datasets/tech-as-caida2007.bin -k 16
